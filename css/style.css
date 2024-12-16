@@ -1,0 +1,362 @@
+.container{
+    width: 1300px;
+    height: 0 auto;
+}
+
+/* Navbar */
+header .menuitems{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+header .menuitems a{
+
+    text-decoration: none;
+    color: black;
+}
+
+header .menuitemswritten{
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Gupter", serif;
+    gap: 20px;
+}
+
+header .menuitemswritten li:hover{
+    border-bottom: 2px solid black;
+   
+}
+
+/* Banner */
+#banner{
+    margin-top: 72px;
+}
+
+#banner h1{
+    font-family: "Habibi", serif;
+    
+    font-weight: 400;
+    font-size: 65;
+    line-height: 76px;
+}
+
+#banner p{
+    margin-top: 43px;
+    font-family: "Habibi", serif;
+    
+    font-weight: 400;
+    font-size: 20;
+}
+
+#banner span{
+    display: inline-block;
+    padding-top: 45px;
+}
+
+#banner .buttons{
+    
+    margin-top: 43px;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+#banner .button1{
+    width: 241px;
+    height: 91px;
+    background-color: #C4A586;
+    color: #FFFFFF;
+    border: none;
+}
+
+#banner .button1:hover{
+    border: 1px solid #C4A586;
+    background-color: #FFFFFF;
+    color: #C4A586;
+}
+
+#banner .button2{
+    width: 241px;
+    height: 91px;
+    background-color: #C4A586;
+    color: #FFFFFF;
+    border: none;
+}
+
+#banner .button2:hover{
+    border: 1px solid #C4A586;
+    background-color: #FFFFFF;
+    color: #C4A586;
+}
+
+
+/* Testimonials */
+
+#testimonial .someclients{
+    margin-top: 105px;
+    width: fit-content;
+    margin-left: auto;
+   margin-right: auto;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 23px;
+    font-family: "Gupter", serif;
+   
+}
+
+#testimonial .clients{
+    color: #72696A;
+    margin-top: 91px;
+    
+}
+
+/* Browse */
+#browse{
+    margin-top: 66px;
+}
+
+#browse .right{
+    position: relative;
+    
+
+    background-color: #C4A586;
+
+}
+
+
+
+#browse .rightimg{
+    position: absolute;
+    right: 0px;
+}
+
+/* Products */
+#products {
+    margin-top: 154px;
+}
+
+#products .productwrapper a{
+    text-decoration: none;
+    
+}
+
+#products .productwrapper li{
+    list-style: none;
+}
+
+#products .productwrapper .seeall a{
+    color: #C4A586;
+}
+
+#products button{
+    background-color: #C4A586;
+    width: 209px;
+    height: 69px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Gupter", serif;
+}
+
+#products .cards{
+    margin-top: 50px;
+    border: none;
+    position: relative;
+}
+
+#products h5{
+    font-family: "Habibi", serif; 
+    font-weight: 400;
+    font-size: 22;
+    
+    padding-left: 80px;
+
+}
+
+#products .originalprice {
+    position: absolute;
+    top: 169px;
+    left: 135px;
+    text-decoration: line-through;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Gupter", serif;
+    color: #72696A;
+}
+
+#products .discount{
+    padding-top: 50px;
+    padding-left: 80px;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Gupter", serif;
+}
+
+/* Customer */
+
+#customer{
+    margin-top: 95px;
+}
+
+#customer .images{
+    margin-top: 54px;
+    justify-content: center;
+    display: flex;
+}
+
+/* Interior */
+#interior{
+    margin-top: 157px;
+}
+
+#interior .watchvideo button{
+    border: none;
+    background-color: #FFFFFF;
+}
+
+#interior .seeyourinteriordes{
+    height: 50px;
+    width: 240px;
+    border: 1px solid #C4A586;
+    border-radius: 30px;
+    margin-top: 57px;
+    background-color: #FFFFFF;
+    color: #C4A586;
+
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Gupter", serif;
+}
+
+
+#interior h2{
+    margin-top: 25px;
+
+    height: 78px;
+    width: 349px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Gupter", serif;
+    
+
+}
+
+#interior input{
+    width: 492px;
+    height: 78px;
+    background-color: rgba(217, 217, 217, 0.51);
+    border-radius: 15px;
+    border: none;
+    
+
+}
+
+#interior .getstartedbutton{
+    width: 178px;
+    height: 68px;
+    color: #FFFFFF;
+    background-color: #C4A586;
+    border-radius: 15px 0 0 15px;
+    position: absolute;
+    left: 237px;
+    top: 223px;
+    border: none;
+    
+}
+
+#interior .getstartedarrow{
+    
+    font-size: 32px;
+}
+
+#interior .getstartedarrowdiv{
+    width: 86px;
+    height: 68px;
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    background-color: rgba(196, 165, 134, 0.44);
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 415px;
+    top: 223px;
+
+   
+}
+
+#interior .subscription{
+    position: relative;
+}
+
+#interior input::placeholder{
+    padding-left: 26px;
+
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Gupter", serif;
+    
+
+}
+
+
+#interior .watchvideo i{
+    
+    font-size: 24px;
+}
+
+#interior .sofa{
+    padding-left: 393px;
+}
+
+/* Footer */
+footer .footeritems{
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "Gupter", serif;
+    gap: 20px;
+}
+
+footer .footeritems li:hover{
+    border-bottom: 2px solid black;
+   
+}
+
+footer .socialicons{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+footer .socialicons a{
+    text-decoration: none;
+    color: #C4A586;
+}
+
+footer .footerline{
+    margin-top: 22px;
+    height: 2px;
+    width: 1440px;
+    background-color: rgba(114, 105, 106, 0.39);
+}
+
+footer .copyright{
+    margin-top: 47px;
+    text-align: center;
+}
+
+footer .copyright span{
+    color: #C4A586;
+}
+
+
+
+
+
+
+
+
